@@ -1,0 +1,10 @@
+<h1>Version Checker</h1>
+<p>
+    {{#each versions}}
+    <h3>Package: {{this.name}} </h3> 
+    Current version: {{this.current_version}} 
+    <br/>
+    Latest Version: {{this.latest_version}}
+    <hr />
+    {{/each}}
+</p>
